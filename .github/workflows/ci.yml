@@ -147,6 +147,10 @@ jobs:
           test "$pages" -eq "$urls" || { echo "::error::$pages pages prerendered but $urls in sitemap"; exit 1; }
           echo "✅ Prerendered $pages pages, all present in the sitemap"
 
+      - name: Verify Vercel static output covers every documented slug
+        run: yarn verify:static
+        working-directory: web
+
   # The checklist data must match lib/schema.json
   checklist:
     name: ☑️ Checklist data
