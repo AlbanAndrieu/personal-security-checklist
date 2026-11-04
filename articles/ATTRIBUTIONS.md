@@ -6,7 +6,7 @@
 <table>
 <tr>
     <td align="center">
-        <a href="https://github.com/koconder">
+        <a href="https://github.com/vincentkoc">
             <img src="https://avatars.githubusercontent.com/u/25068?u=582657b23622aaa3dfe68bd028a780f272f456fa&v=4" width="80;" alt="koconder"/>
             <br />
             <sub><b>Vincent Koc</b></sub>
@@ -127,11 +127,9 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/NixyJuppie">
-            <img src="https://avatars.githubusercontent.com/u/138570196?u=b102c222487905728b858704962d32759df29ebe&v=4" width="80;" alt="NixyJuppie"/>
-            <br />
-            <sub><b>Nixy</b></sub>
-        </a>
+        <img src="https://avatars.githubusercontent.com/u/138570196?u=b102c222487905728b858704962d32759df29ebe&v=4" width="80;" alt="NixyJuppie"/>
+        <br />
+        <sub><b>Nixy</b></sub>
     </td></tr>
 </table>
 <!-- readme: sponsors -end -->
@@ -201,11 +199,9 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/hypogram">
-            <img src="https://avatars.githubusercontent.com/u/122231081?v=4" width="80;" alt="hypogram"/>
-            <br />
-            <sub><b>Hypogram</b></sub>
-        </a>
+        <img src="https://avatars.githubusercontent.com/u/122231081?v=4" width="80;" alt="hypogram"/>
+        <br />
+        <sub><b>Hypogram</b></sub>
     </td>
     <td align="center">
         <a href="https://github.com/b3pio">
@@ -430,7 +426,7 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/notthewave">
+        <a href="https://github.com/axwnet">
             <img src="https://avatars.githubusercontent.com/u/74874782?v=4" width="80;" alt="notthewave"/>
             <br />
             <sub><b>Notthewave</b></sub>
@@ -452,7 +448,7 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/pabloscloud">
+        <a href="https://github.com/pablo03v">
             <img src="https://avatars.githubusercontent.com/u/93644977?v=4" width="80;" alt="pabloscloud"/>
             <br />
             <sub><b>Pabloscloud</b></sub>
@@ -602,11 +598,9 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/0x5FE">
-            <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="0x5FE"/>
-            <br />
-            <sub><b>0x5FE</b></sub>
-        </a>
+        <img src="https://avatars.githubusercontent.com/u/65371336?v=4" width="80;" alt="0x5FE"/>
+        <br />
+        <sub><b>0x5FE</b></sub>
     </td>
     <td align="center">
         <a href="https://github.com/fkohrt">
@@ -631,7 +625,7 @@ Thanks goes to these wonderful people
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/jneplokh">
+        <a href="https://github.com/jacobneplokh">
             <img src="https://avatars.githubusercontent.com/u/46184597?v=4" width="80;" alt="jneplokh"/>
             <br />
             <sub><b>Jacob Neplokh</b></sub>
@@ -712,21 +706,15 @@ Thanks goes to these wonderful people
 </table>
 <!-- readme: contributors -end -->
 
-## Stargazers 🌟
-
-[![Recent Star Gazers](https://reporoster.com/stars/dark/Lissy93/personal-security-checklist)](https://github.com/Lissy93/personal-security-checklist/stargazers)
-
-[![Recent Forkers](https://reporoster.com/forks/dark/lissy93/personal-security-checklist)](https://github.com/lissy93/personal-security-checklist/network/members)
-
 ## Special Thanks 🤗
 
 Special Thanks to [Stefan Keim](https://github.com/indus) and [Matt (IPv4) Cowley](https://github.com/MattIPv4) from [JS.org](https://js.org), for providing the domain used for our GitHub Page ([security-list.js.org](https://security-list.js.org)).
 
-And of course, and huge thank you to the awesome developers behind the projects listed in the [Privacy-Respecting Software list](/5_Privacy_Respecting_Software.md). The effort, time and love they've put into each one of those applications is immediately apparent, they've done an amazing job 💞
+And of course, and huge thank you to the awesome developers behind the projects listed in the [Privacy-Respecting Software list](https://github.com/Lissy93/awesome-privacy). The effort, time and love they've put into each one of those applications is immediately apparent, they've done an amazing job 💞
 
 ## You? 👈
 
-Want to get involved? You can support the continued development of this project by submitting a PR, sponsoring us on GitHub, sharing this repo with your network or staring the repository. [Contributions](/CONTRIBUTING.md) of any kind are very welcome!
+Want to get involved? You can support the continued development of this project by submitting a PR, sponsoring us on GitHub, sharing this repo with your network or staring the repository. [Contributions](/.github/CONTRIBUTING.md) of any kind are very welcome!
 
 #### Submit an Improvement
 
@@ -746,7 +734,7 @@ Want to get involved? You can support the continued development of this project 
 ## References 📝
 
 <blockquote>
-"2019 Data Breach Investigations Report - EMEA", Verizon Enterprise Solutions, 2020. [Online]. Available: https://enterprise.verizon.com/resources/reports/2019-data-breach-investigations-report-emea.pdf. [Accessed: 25- Apr - 2020]  
+"2019 Data Breach Investigations Report - EMEA", Verizon Enterprise Solutions, 2020. [Online]. Available: https://www.verizon.com/business/resources/reports/2019-data-breach-investigations-report-emea.pdf. [Accessed: 25- Apr - 2020]  
   
 "Web Browser Privacy: What Do Browsers Say When They Phone Home?", Feb 2020. [Online].
 Available: https://www.scss.tcd.ie/Doug.Leith/pubs/browser_privacy.pdf. [Accessed: 27- Apr - 2020]
@@ -767,10 +755,10 @@ Available: https://www.openrightsgroup.org/about/reports/dns-security-getting-it
 Available: https://www.samknows.com/blog/dns-over-https-performance. [Accessed: 25- Apr - 2020]
 
 J. Eckenrode and S. Friedman, "The state of cybersecurity at financial institutions", 2018. [Online].
-Available: https://www2.deloitte.com/us/en/insights/industry/financial-services/state-of-cybersecurity-at-financial-institutions.html. [Accessed: 25- Apr - 2020]
+Available: https://web.archive.org/web/20200429180540/https://www2.deloitte.com/us/en/insights/industry/financial-services/state-of-cybersecurity-at-financial-institutions.html. [Accessed: 25- Apr - 2020]
 
 E. Foundation, "Cracking DES", Shop.oreilly.com, 1998. [Online].
-Available: http://shop.oreilly.com/product/9781565925205.do. [Accessed: 25- Apr - 2020]
+Available: https://web.archive.org/web/20200220113146/http://shop.oreilly.com/product/9781565925205.do. [Accessed: 25- Apr - 2020]
 
 "Google data collection, research and findings", Digital Content Next, 2020. [Online].
 Available: https://digitalcontentnext.org/blog/2018/08/21/google-data-collection-research/. [Accessed: 25- Apr - 2020]
@@ -783,7 +771,7 @@ D. Tian, G. Hernandez, J. Choi, V. Frost, C. Ruales, P. Traynor, H. Vijayakumar,
 Available: https://www.cise.ufl.edu/~butler/pubs/usenix18-atcmd.pdf. [Accessed: 25- Apr - 2020]
 
 S. Topuzov, "Phone hacking through SS7 is frighteningly easy and effective", Blog.securegroup.com, 2020. [Online].
-Available: https://blog.securegroup.com/phone-hacking-through-ss7-is-frighteningly-easy-and-effective. [Accessed: 25- Apr - 2020]
+Available: https://web.archive.org/web/20200325144020/https://blog.securegroup.com/phone-hacking-through-ss7-is-frighteningly-easy-and-effective. [Accessed: 25- Apr - 2020]
 
 J. Heidemann, Y. Pradkin, R. Govindan, C. Papadopoulos and J. Bannister, "Exploring Visible Internet Hosts through Census and Survey", Isi.edu, 2020. [Online].
 Available: https://www.isi.edu/~johnh/PAPERS/Heidemann07c.pdf. [Accessed: 10- Ma - 2020]
@@ -832,7 +820,7 @@ Roesner, Franziska. Detecting and Defending Against Third-Party Tracking on the 
 
 Schneider, Christian. Cross-Site WebSocket Hijacking, n.d. http://www.christian-schneider.net/CrossSiteWebSocketHijacking.html.
 
-Seb, Crypto. Crypto Paper: Privacy, Security, and Anonymity For Every Internet User, n.d. https://github.com/cryptoseb/cryptopaper.
+Seb, Crypto. Crypto Paper: Privacy, Security, and Anonymity For Every Internet User, n.d. https://web.archive.org/web/20200510080326/https://github.com/cryptoseb/cryptopaper.
 
 Shining the Floodlights on Mobile Web Tracking — A Privacy Survey, n.d. https://pdfs.semanticscholar.org/80bb/5c9119ff4fc2374103b4f3d6a8f614b3c2ed.pdf.
 
@@ -851,9 +839,9 @@ Yelp, Luca Wu. Is Google degrading search? Consumer Harm from Universal Search, 
 </blockquote>
 
 **Above References apply to the Content in the Following Files**:<br>
-[TLDR](/2_TLDR_Short_List.md) | [Intro](/0_Why_It_Matters.md) | [The Personal Security Checklist](/README.md) | [Privacy-Respecting Software](/5_Privacy_Respecting_Software.md) | [Security Hardware](/6_Privacy_and-Security_Gadgets.md) | [Further Links](/4_Privacy_And_Security_Links.md)
+[TLDR](/articles/2_TLDR_Short_List.md) | [Intro](/articles/0_Why_It_Matters.md) | [The Personal Security Checklist](/CHECKLIST.md) | [Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy) | [Security Hardware](/articles/6_Privacy_and-Security_Gadgets.md) | [Further Links](/articles/4_Privacy_And_Security_Links.md)
 
 ---
 
-Licensed under [Creative Commons, CC BY 4.0](/LICENSE.md), © [Alicia Sykes](https://aliciasykes.com) 2022
+Licensed under [Creative Commons, CC BY 4.0](/LICENSE), © [Alicia Sykes](https://aliciasykes.com) 2022
 

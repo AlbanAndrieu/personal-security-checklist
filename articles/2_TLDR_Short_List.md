@@ -1,4 +1,4 @@
-# Personal Cyber Security | TLDR [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)[![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](/ATTRIBUTIONS.md#contributors-)
+# Personal Cyber Security | TLDR [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![License](https://img.shields.io/badge/LICENSE-CC_BY_4.0-00a2ff?&style=flat-square)](https://creativecommons.org/licenses/by/4.0/)[![Contributors](https://img.shields.io/github/contributors/lissy93/personal-security-checklist?color=%23ffa900&style=flat-square)](/articles/ATTRIBUTIONS.md#contributors-)
 
 #### Contents
 - [Personal Security Checklist](#personal-security-checklist)
@@ -7,14 +7,14 @@
 
 ## PERSONAL SECURITY CHECKLIST
 
-> This checklist of privacy and security tips, is a summarized version of [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md). It lays out the most essential steps you should take to protect your digital life.
+> This checklist of privacy and security tips, is a summarized version of [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/CHECKLIST.md). It lays out the most essential steps you should take to protect your digital life.
 
 ### Authentication
 - Use a long, strong and unique password for each of your accounts (see [HowSecureIsMyPassword.net](https://howsecureismypassword.net))
 - Use a secure [password manager](https://github.com/Lissy93/awesome-privacy#password-managers), to encrypt, store and fill credentials, such as [BitWarden](https://bitwarden.com) or [KeePass](https://keepass.info) / [KeePassXC](https://keepassxc.org)
-- Enable 2-Factor authentication where available, and use an [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) or [hardware token](/6_Privacy_and-Security_Gadgets.md#fido-u2f-keys)
+- Enable 2-Factor authentication where available, and use an [authenticator app](https://github.com/Lissy93/awesome-privacy#2-factor-authentication) or [hardware token](/articles/6_Privacy_and-Security_Gadgets.md#fido-u2f-keys)
 - When you enable multi-factor authentication, you will usually be given several codes that you can use if your 2FA method is lost, broken or unavailable. You should store these on paper or in a safe place on disk (e.g. in offline storage or as in an encrypted file/drive).
-- Sign up for breach alerts (with [Firefox Monitor](https://monitor.firefox.com) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
+- Sign up for breach alerts (with [Mozilla Monitor](https://monitor.mozilla.org) or [HaveIBeenPwned](https://haveibeenpwned.com)), and update passwords of compromised accounts
 
 
 ### Browsing
@@ -27,7 +27,7 @@
 - Clear your cookies, session data and cache regularly. An extension such as [Cookie-Auto-Delete](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete) can be used to automate this
 - Don't sign into your browser, as it can link further data to your identity. If you need to, you can use an open source [bookmark sync](https://github.com/Lissy93/awesome-privacy#browser-sync) app
 - Consider using [Decentraleyes](https://decentraleyes.org) to decrease the number of trackable CDN requests your device makes
-- Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fp) are also useful for exploring what device info you are exposing to websites
+- Test your browser using a tool like [Panopticlick](https://panopticlick.eff.org) to ensure there are no major issues. [BrowserLeaks](https://browserleaks.com) and [Am I Unique](https://amiunique.org/fingerprint) are also useful for exploring what device info you are exposing to websites
 - For anonymous browsing use [The Tor Browser](https://www.torproject.org/), and avoid logging into any of your personal accounts
 
 
@@ -35,7 +35,7 @@
 - Set a device PIN, ideally use a long passcode. If supported, configure fingerprint authentication, but avoid face unlock
 - Encrypt your device, in order to keep your data safe from physical access. To enable, for Android: `Settings --> Security --> Encryption`, or for iOS: `Settings --> TouchID & Passcode --> Data Protection`
 - Keep device up-to-date. System updates often contain patches for recently-discovered security vulnerabilities. You should install updates when prompted
-- Review application permissions. Don't grant access permissions to apps that do not need it. (For Android, see also [Bouncer](https://play.google.com/store/apps/details?id=com.samruston.permission&hl=en_US) - an app that allows you to grant temporary permissions)
+- Review application permissions. Don't grant access permissions to apps that do not need it.
 - Disable connectivity features that aren't being used, and 'forget' WiFi networks that you no longer need
 - Disable location tracking. By default, both Android and iOS logs your GPS location history. You can disable this, for Android: `Maps --> Settings --> Location History`, and iOS: `Settings --> Privacy --> Location Services --> System Services --> Places`. Be aware that third-party apps may still log your position, and that there are other methods of determining your location other than GPS (Cell tower, WiFi, Bluetooth etc)
 - Use an application firewall to block internet connectivity for apps that shouldn't need it. Such as [NetGuard](https://www.netguard.me/) (Android) or [Lockdown](https://apps.apple.com/in/app/lockdown-apps/id1469783711) (iOS)
@@ -58,24 +58,28 @@ It's important to protect your email account, as if a hacker gains access to it 
 - Disable cloud services, such as web app companion or cloud backup feature, both of which increases attack surface
 - Strip meta data from media before sharing, as this can lead to unintentionally revealing more data than you intended
 - Verify your recipient is who they claim to be, either physically or cryptographically by using an app that offers contact verification
-- Avoid SMS, but if you must use it then encrypt your messages, e.g. using the [Silence](https://silence.im/) app
+- Avoid SMS, but if you must use it then encrypt your messages
 - Opt for a stable and actively maintained messaging platform, that is backed by reputable developers and have a transparent revenue model or are able to account for where funding has originated from. It should ideally be based in a friendly jurisdiction and have undergone an independent security audit. 
 - In some situations, it may be appropriate to use an app that supports disappearing messages, and/ or allows for anonymous sign up (without any PII: phone number, email address etc). A [decentralized platform](https://github.com/Lissy93/awesome-privacy#p2p-messaging) can offer additional security and privacy benefits in some circumstances, as there is no single entity governing it, e.g. [Matrix](https://matrix.org/), [Session](https://getsession.org/), [Tox](https://tox.chat/) or [Briar](https://briarproject.org/)
 
 
 ### Networking
-- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their [limitations](5_Privacy_Respecting_Software.md#word-of-warning-4).  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net), see [thatoneprivacysite.net](https://thatoneprivacysite.net/) for detailed comparisons
+- Use a reputable VPN to keep your IP protected and reduce the amount of browsing data your ISP can log, but understand their [limitations](https://github.com/Lissy93/awesome-privacy#virtual-private-networks).  Good options include [ProtonVPN](https://protonvpn.com) and [Mullvad](https://mullvad.net)
 - Change your routers default password. Anyone connected to your WiFi is able to listen to network traffic, so in order to prevent people you don't know from connecting, use WPA2 and set a strong password.
-- Use a [secure DNS](https://github.com/Lissy93/awesome-privacy#dns) provider, (such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/)) to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
+- Use a [secure DNS](https://awesome-privacy.xyz/networking/dns-providers) provider, such as [Cloudflare's 1.1.1.1](https://1.1.1.1/dns/), [Quad9](https://quad9.net) or [AdGuard DNS](https://adguard-dns.io), to reduce tracking. Ideally configure this on your router, but if that's not possible, then it can be done on each device. 
 
 
-**📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/README.md)
+### Backups
+- Keep encrypted backups of your important data, and test that you can restore them. This protects you from ransomware, theft or damage
+
+
+**📜 See More**: [The Complete Personal Security Checklist](https://github.com/Lissy93/personal-security-checklist/blob/master/CHECKLIST.md)
 
 ----
 
 
 ## OPEN-SOURCE, PRIVACY-FOCUSED SOFTWARE
-Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targetted ads.
+Switch to alternative open-source, privacy-respecting apps and services, which won't collect your data, track you or show targeted ads.
 
 #### Security
 - Password Managers: [BitWarden] | [1Password] *(proprietary)* | [KeePassXC] *(offline)* | [LessPass] *(stateless)*
@@ -84,8 +88,8 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - Encrypted Messaging: [Signal] | [KeyBase] *(for groups/ communities)*
 - Encrypted Email: [ProtonMail] | [MailFence] | [Tutanota] | (+ also [33Mail] | [anonaddy] for aliasing)
 - Private Browsers: [Brave Browser] | [Firefox] *with [some tweaks](https://restoreprivacy.com/firefox-privacy/)* | [Tor]
-- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearX] *(self-hosted)* | [Qwant]
-- VPN: [Mullvad] | [ProtonVPN]  | [Windscribe] | [IVPN] *(better still, use [Tor] for anonimity)*. See also [VPN Warning Note]
+- Non-Tracking Search Engines: [DuckDuckGo] | [StartPage] | [SearXNG] *(self-hosted)* | [Qwant]
+- VPN: [Mullvad] | [ProtonVPN]  | [Windscribe] | [IVPN] *(better still, use [Tor] for anonymity)*. See also [VPN Warning Note]
 - App Firewall: [NetGuard] (Android) | [Lockdown] (iOS) | [OpenSnitch] (Linux) | [LuLu] (MacOS)
 
 #### Browser Extensions
@@ -101,8 +105,7 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - [Exodus] - Shows which trackers are on your device.
 - [Orbot]- System-wide Tor Proxy.
 - [Island] - Sand-box environment for apps.
-- [NetGuard] - Controll which apps have network access.
-- [Bouncer] - Grant temporary permissions.
+- [NetGuard] - Control which apps have network access.
 - [Greenify] - Control which apps can run in the background.
 - [1.1.1.1] - Use CloudFlare's DNS over HTTPS.
 - [Fing App] - Monitor your home WiFi network for intruders
@@ -123,7 +126,7 @@ Switch to alternative open-source, privacy-respecting apps and services, which w
 - Blogging: [Write Freely].
 - Calendar/ Contacts Sync: [ETE Sync]
 
-📜 **See More**: [Complete List of Privacy-Respecting Sofware](https://github.com/Lissy93/awesome-privacy)
+📜 **See More**: [Complete List of Privacy-Respecting Software](https://github.com/Lissy93/awesome-privacy)
 
 ----
 
@@ -136,13 +139,12 @@ There are also some gadgets that can help improve your physical and digital secu
 - **FIDO U2F Keys**: [Solo Key] | [Nitro Key] | [Librem Key]
 - **Data Blockers**: [PortaPow] - Blocks data to protect against malware upload attacks, enables FastCharge.
 - **Hardware-encrypted storage**:  [iStorage]- PIN-authenticated 256-bit hardware encrypted storage | [Encrypted Drive Enclosure]
-- **Networking**: [Anonabox] - Plug-and-play Tor router | [FingBox] - Easy home network automated security monitoring
-- **Paranoid Gadgets!** [Orwl]- Self-destroying PC | [Hunter-Cat]- Card-skim detector | [Adversarial Fashion]- Anti-facial-recognition clothing | [DSTIKE Deauth Detector] - Detect deauth attacks, from [Spacehuhn] | [Reflectacles]- Anti-surveillance glasses | [Armourcard]- Active RFID jamming | [Bug-Detector]- Check for RF-enabled eavesdropping equipment | [Ultrasonic Microphone Jammer] - Emits signals that's silent to humans, but interfere with recording equipment.
+- **Paranoid Gadgets!** [Hunter-Cat]- Card-skim detector | [Adversarial Fashion]- Anti-facial-recognition clothing | [DSTIKE Deauth Detector] - Detect deauth attacks, from [Spacehuhn] | [Reflectacles]- Anti-surveillance glasses | [Armourcard]- Active RFID jamming
 
 
-There's no need to spend money - Most of these products can be made at home with open source software. Here's a list of [DIY Security Gadgets](/6_Privacy_and-Security_Gadgets.md#diy-security-products).
+There's no need to spend money - Most of these products can be made at home with open source software. Here's a list of [DIY Security Gadgets](/articles/6_Privacy_and-Security_Gadgets.md#diy-security-products).
 
-📜 **See More**: [Privacy and Security Gadgets](/6_Privacy_and-Security_Gadgets.md)
+📜 **See More**: [Privacy and Security Gadgets](/articles/6_Privacy_and-Security_Gadgets.md)
 
 ----
 
@@ -202,13 +204,13 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [DuckDuckGo]: https://duckduckgo.com
 [StartPage]: https://www.startpage.com
 [Qwant]: https://www.qwant.com
-[SearX]: https://asciimoo.github.io/searx
+[SearXNG]: https://github.com/searxng/searxng
 
-[VPN Warning Note]: https://github.com/Lissy93/personal-security-checklist/blob/master/5_Privacy_Respecting_Software.md#word-of-warning-8
+[VPN Warning Note]: https://github.com/Lissy93/awesome-privacy#virtual-private-networks
 
 [//]: # (PRODUCTIVITY SOFTWARE LINKS)
 [NextCloud]: https://nextcloud.com
-[Standard Notes]: https://standardnotes.org/?s=chelvq36
+[Standard Notes]: https://standardnotes.com
 [Cryptee]: https://crypt.ee
 [Joplin]: https://joplinapp.org
 [ETE Sync]: https://www.etesync.com/accounts/signup/?referrer=QK6g
@@ -239,21 +241,17 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Island]: https://play.google.com/store/apps/details?id=com.oasisfeng.island
 [Orbot]: https://play.google.com/store/apps/details?id=org.torproject.android
 [Orbot]: https://play.google.com/store/apps/details?id=org.torproject.android
-[Bouncer]: https://play.google.com/store/apps/details?id=com.samruston.permission
 [Crypto]: https://play.google.com/store/apps/details?id=com.kokoschka.michael.crypto
 [Cryptomator]: https://play.google.com/store/apps/details?id=org.cryptomator
-[Daedalus]: https://play.google.com/store/apps/details?id=org.itxtech.daedalus
+[Daedalus]: https://f-droid.org/packages/org.itxtech.daedalus/
 [Brevent]: https://play.google.com/store/apps/details?id=me.piebridge.brevent
 [Greenify]: https://play.google.com/store/apps/details?id=com.oasisfeng.greenify
-[Secure Task]: https://play.google.com/store/apps/details?id=com.balda.securetask
 [Tor Browser]: https://play.google.com/store/apps/details?id=org.torproject.torbrowser 
 [PortDroid]: https://play.google.com/store/apps/details?id=com.stealthcopter.portdroid
-[Packet Capture]: https://play.google.com/store/apps/details?id=app.greyshirts.sslcapture
 [SysLog]: https://play.google.com/store/apps/details?id=com.tortel.syslog
 [Dexplorer]: https://play.google.com/store/apps/details?id=com.dexplorer
-[Check and Test]: https://play.google.com/store/apps/details?id=com.inpocketsoftware.andTest
 [Tasker]: https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm
-[Haven]: https://play.google.com/store/apps/details?id=org.havenapp.main
+[Haven]: https://guardianproject.github.io/haven/
 [NetGaurd]: https://www.netguard.me/
 [Exodus]: https://exodus-privacy.eu.org/en/page/what/#android-app
 [XUMI Security]: https://xumi.ca/xumi-security/
@@ -279,13 +277,8 @@ http://www.linkedin.com/shareArticle?mini=true&url=https://github.com/Lissy93/pe
 [Solo Key]: https://solokeys.com
 [Nitro Key]: https://www.nitrokey.com
 [Librem Key]: https://puri.sm/products/librem-key
-[Anonabox]: https://www.anonabox.com
-[FingBox]: https://www.fing.com/products/fingbox
-[Orwl]: https://orwl.org
-[Hunter-Cat]: https://lab401.com/products/hunter-cat-card-skimmer-detector
-[DSTIKE Deauth Detector]: https://www.tindie.com/products/lspoplove/dstike-deauth-detector-pre-flashed-with-detector
-[Bug-Detector]: https://www.brickhousesecurity.com/counter-surveillance/multi-bug
-[Ultrasonic Microphone Jammer]: https://uspystore.com/silent-ultrasonic-microphone-defeater
+[Hunter-Cat]: https://electroniccats.com/store/hunter-cat-2/
+[DSTIKE Deauth Detector]: https://dstike.com/products/dstike-deauth-detector-v3pre-flashed
 [Silent-Pocket]: https://silent-pocket.com
 [Armourcard]: https://armourcard.com
 [Adversarial Fashion]: https://adversarialfashion.com

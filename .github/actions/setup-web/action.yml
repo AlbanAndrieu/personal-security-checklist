@@ -1,0 +1,18 @@
+# Shared Node.js + Yarn setup, used by each of the web CI jobs
+name: Setup Web
+description: Installs Node.js and the web app's Yarn dependencies
+
+runs:
+  using: composite
+  steps:
+    - name: Setup Node.js
+      uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+      with:
+        node-version: '24'
+        cache: yarn
+        cache-dependency-path: web/yarn.lock
+
+    - name: Install dependencies
+      run: yarn install --frozen-lockfile
+      shell: bash
+      working-directory: web

@@ -5,7 +5,7 @@
   color: yellow
   intro: >-
     Most reported data breaches are caused by the use of weak, default, or stolen passwords
-    (according to [this Verizon report](http://www.verizonenterprise.com/resources/reports/rp_dbir-2016-executive-summary_xg_en.pdf)).
+    (according to [this Verizon report](https://www.verizon.com/business/resources/2016/DBIR_2016_Report.pdf)).
     Use long, strong, and unique passwords, manage them in a secure password manager, enable
     2-factor authentication, keep on top of breaches, and take care while logging into your accounts.
   checklist:
@@ -72,7 +72,7 @@
     details: >-
       After a website suffers a significant data breach, the leaked data often ends up on the internet. Several websites collect
       these leaked records and allow you to search your email address to check if you are in any of their lists.
-      [Firefox Monitor](https://monitor.firefox.com), [Have I Been Pwned](https://haveibeenpwned.com),
+      [Mozilla Monitor](https://monitor.mozilla.org), [Have I Been Pwned](https://haveibeenpwned.com),
       and [DeHashed](https://dehashed.com) allow you to sign up for monitoring, where they will notify you if your
       email address appears in any new data sets. It is useful to know as soon as possible when this happens so
       that you can change your passwords for the affected accounts. [Have i been pwned](https://awesome-privacy.xyz/security-tools/online-tools/have-i-been-pwned) also has domain-wide
@@ -92,7 +92,7 @@
       Database leaks and breaches are common, and, likely, several of your passwords are already somewhere
       online. Occasionally updating passwords of security-critical accounts can help mitigate this. But providing
       that all your passwords are long, strong, and unique, there is no need to do this too often — annually should be
-      sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes),
+      sufficient. Enforcing mandatory password changes within organisations is [no longer recommended](https://web.archive.org/web/20200303190807/https://duo.com/decipher/microsoft-will-no-longer-recommend-forcing-periodic-password-changes),
       as it encourages colleagues to select weaker passwords.
 
   - point: Don’t Save your Password in Browsers
@@ -106,7 +106,7 @@
     priority: Optional
     details: >-
       Avoid logging in on other people's computers since you can't be sure their system is clean. Be especially cautious
-      of public machines, as malware and tracking arr more common here. Using someone else's device is especially
+      of public machines, as malware and tracking are more common here. Using someone else's device is especially
       dangerous with critical accounts like online banking. When using someone else's machine, ensure that you're in a
       private/incognito session (Use Ctrl+Shift+N/ Cmd+Shift+N). This will request the browser to not save your credentials,
       cookies, and browsing history.
@@ -175,23 +175,24 @@
       verify your identity instead of entering a OTP from your authenticator. [SoloKey](https://solokeys.com) and
       [NitroKey](https://www.nitrokey.com) are examples of such keys. They bring with them several security benefits.
       Since the browser communicates directly with the device, it cannot be fooled as to which host is requesting
+      authentication because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is
+      a good explanation of the security of using FIDO U2F tokens. Of course, it is important to store the physical key
+      somewhere safe or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled.
+
   - point: Use Passkeys Where Available
-    priority: Recommended
+    priority: Optional
     details: >-
       Passkeys (also known as FIDO2 WebAuthn) are a passwordless authentication method that is more secure
       and convenient than traditional passwords. They use your devices biometric authentication (fingerprint, face ID)
       or a PIN to log in, and are resistant to phishing attacks. Many major services now support passkeys including Google,
       Apple, Microsoft, and GitHub. Consider enabling passkeys for accounts that offer them as an alternative to
       passwords or as an additional 2FA method.
-      authentication because the TLS certificate is checked. [This post](https://security.stackexchange.com/a/71704) is
-      a good explanation of the security of using FIDO U2F tokens. Of course, it is important to store the physical key
-      somewhere safe or keep it on your person. Some online accounts allow for several methods of 2FA to be enabled.
 
   - point: Consider Offline Password Manager
     priority: Advanced
     details: >-
       For increased security, an encrypted offline password manager will give you full control over your data.
-      [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://[KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass).info/plugins.html) and
+      [KeePass](https://awesome-privacy.xyz/essentials/password-managers/keepass) is a popular choice, with lots of [plugins](https://keepass.info/plugins.html) and
       community forks with additional compatibility and functionality. Popular clients include: [KeePassXC](https://keepassxc.org)
       (desktop), [KeePassDX](https://www.keepassdx.com) (Android) and [StrongBox](https://apps.apple.com/us/app/strongbox-password-safe/id897283731)
       (iOS). The drawback being that it may be slightly less convenient for some, and it will be up to you to back it up
@@ -249,7 +250,7 @@
       load faster, uses less data and provides a less cluttered experience.
 
   - point: Ensure Website is Legitimate
-    priority: Basic
+    priority: Essential
     details: >-
       It may sound obvious, but when you logging into any online accounts, double check the URL is correct.
       Storing commonly visited sites in your bookmarks is a good way to ensure the URL is easy to find. When
@@ -260,7 +261,7 @@
       if you are unsure.
 
   - point: Watch out for Browser Malware
-    priority: Basic
+    priority: Essential
     details: >-
       Your system or browser can be compromised by spyware, miners, browser hijackers, malicious redirects,
       adware etc. You can usually stay protected, just by: ignoring pop-ups, be wary of what your clicking,
@@ -280,7 +281,7 @@
       major operating systems. Your browser has access to everything that you do online, so if possible, avoid
       Google Chrome, Edge and Safari as (without correct configuration) all three of them, collect usage data,
       call home and allow for invasive tracking. Firefox requires a few changes to achieve optimal security,
-      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s
+      for example - [arkenfox](https://github.com/arkenfox/user.js/wiki) or [12byte](https://web.archive.org/web/20260706224556/https://12bytes.org/firefox-configuration-guide-for-privacy-freaks-and-performance-buffs/)'s
       user.js configs. See more: [Privacy Browsers](https://github.com/Lissy93/awesome-privacy#browsers).
 
   - point: Use a Private Search Engine
@@ -288,7 +289,7 @@
     details: >-
       Using a privacy-preserving, non-tracking search engine, will reduce risk that your search terms are not
       logged, or used against you. Consider [DuckDuckGo](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo),
-      or [Qwant](https://awesome-privacy.xyz/essentials/search-engines/qwant).
+      or [Qwant](https://www.qwant.com).
       Google implements some [incredibly invasive](https://hackernoon.com/data-privacy-concerns-with-google-b946f2b7afea)
       tracking policies, and have a history of displaying [biased search results](https://www.businessinsider.com/evidence-that-google-search-results-are-biased-2014-10).
       Therefore Google, along with Bing, Baidu, Yahoo and Yandex are incompatible with anyone looking to protect
@@ -320,7 +321,7 @@
       the green padlock give you a false sense of security, just because a website has SSL certificate, does
       not mean that it is legitimate or trustworthy. [HTTPS-Everywhere](https://www.eff.org/https-everywhere)
       (developed by the [EFF](https://www.eff.org/)) used to be a browser extension/addon that automatically
-      enabled HTTPS on websites, but as of 2022 is now deprecated. In their [accouncement article](https://www.eff.org/)
+      enabled HTTPS on websites, but as of 2022 is now deprecated. In their [announcement article](https://www.eff.org/)
       the EFF explains that most browsers now integrate such protections. Additionally, it provides instructions
       for [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox), Chrome, Edge and Safari browsers on how to enable their HTTPS secure protections.
 
@@ -330,10 +331,10 @@
       Traditional DNS makes requests in plain text for everyone to see. It allows for eavesdropping and
       manipulation of DNS data through man-in-the-middle attacks. Whereas DNS-over-HTTPS performs DNS
       resolution via the HTTPS protocol, meaning data between you and your DNS resolver is encrypted.
-      A popular option is [CloudFlare](https://awesome-privacy.xyz/networking/dns-providers/cloudflare)'s [1.1.1.1](https://awesome-privacy.xyz/security-tools/mobile-apps/1.1.1.1), or compare providers- it is simple to enable in-browser.
+      DNS-over-TLS works just as well. Popular options include [Cloudflare](https://awesome-privacy.xyz/networking/dns-providers/cloudflare)'s [1.1.1.1](https://awesome-privacy.xyz/security-tools/mobile-apps/1.1.1.1), [Quad9](https://quad9.net) and [AdGuard DNS](https://awesome-privacy.xyz/networking/dns-providers/adguard), or [compare providers](https://awesome-privacy.xyz/networking/dns-providers) - it is simple to enable in-browser.
       Note that DoH comes with its own issues, mostly preventing web filtering.
 
-  - point: Multi-[Session](https://awesome-privacy.xyz/communication/encrypted-messaging/session) Containers
+  - point: Compartmentalise Your Browsing
     priority: Essential
     details: >-
       Compartmentalisation is really important to keep different aspects of your browsing separate. For
@@ -345,7 +346,7 @@
       use different browsers for different tasks
       ([Brave](https://awesome-privacy.xyz/essentials/browsers/brave-browser),
       [Firefox](https://awesome-privacy.xyz/essentials/browsers/firefox),
-      [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) etc).
+      [Tor](https://awesome-privacy.xyz/networking/anonymity-networks/tor) etc).
 
   - point: Use Incognito
     priority: Essential
@@ -371,9 +372,9 @@
   - point: Block Third-Party Cookies
     priority: Essential
     details: >-
-      Third-party cookies placed on your device by a website other than the one you’re visiting. This
-      poses a privacy risk, as a 3rd entity can collect data from your current session. This guide explains
-      how you can disable 3rd-party cookies, and you can check here ensure this worked.
+      Third-party cookies are placed on your device by a website other than the one you’re visiting. This
+      poses a privacy risk, as a 3rd entity can collect data from your current session. Firefox, Safari and
+      Brave protect against them by default. In Chrome or Edge, turn them off in your privacy settings.
 
   - point: Block Third-Party Trackers
     priority: Essential
@@ -416,8 +417,8 @@
     priority: Optional
     details: >-
       Browser push notifications are a common method for criminals to encourage you to click their link, since
-      it is easy to spoof the source. Be aware of this, and for instructions on disabling browser notifications,
-      see this article.
+      it is easy to spoof the source. Be aware of this, and turn them off in your browser settings, or only
+      allow sites you trust.
 
   - point: Disable Automatic Downloads
     priority: Optional
@@ -460,7 +461,7 @@
     details: >-
       The CSS Exfiltrate attack is a method where credentials and other sensitive details can be snagged with
       just pure CSS. You can stay protected,
-      with the [CSS Exfil Protection](https://awesome-privacy.xyz/security-tools/browser-extensions/css-exfil-protection) plugin.
+      with the [CSS Exfil Protection](https://github.com/mlgualtieri/CSS-Exfil-Protection) plugin.
 
   - point: Deactivate ActiveX
     priority: Optional
@@ -473,14 +474,15 @@
     priority: Optional
     details: >-
       WebRTC allows high-quality audio/video communication and peer-to-peer file-sharing straight from the
-      browser. However it can pose as a privacy leak. To learn more, check out this guide.
+      browser. However it can leak your real IP address when using a proxy or some VPNs. You can
+      [check if you're affected here](https://browserleaks.com/webrtc).
 
   - point: Spoof HTML5 Canvas Sig
     priority: Optional
     details: >-
       Canvas Fingerprinting allows websites to identify and track users very accurately. You can use the
       Canvas-Fingerprint-Blocker extension to spoof your fingerprint or
-      use [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor).
+      use [Tor](https://awesome-privacy.xyz/networking/anonymity-networks/tor).
 
   - point: Spoof User Agent
     priority: Optional
@@ -510,7 +512,7 @@
   - point: Enable 1st-Party Isolation
     priority: Optional
     details: >-
-      [First Party Isolation](https://awesome-privacy.xyz/security-tools/browser-extensions/first-party-isolation) means
+      [First Party Isolation](https://addons.mozilla.org/en-US/firefox/addon/first-party-isolation/) means
       that all identifier sources and browser state are scoped using the URL bar
       domain, this can greatly reduce tracking.
 
@@ -532,7 +534,7 @@
   - point: Use The Tor Browser
     priority: Advanced
     details: >-
-      The [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor) Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping
+      The [Tor](https://awesome-privacy.xyz/networking/anonymity-networks/tor) Project provides a browser that encrypts and routes your traffic through multiple nodes, keeping
       users safe from interception and tracking. The main drawbacks are speed and user experience.
 
   - point: Disable JavaScript
@@ -544,7 +546,7 @@
     - title: Privacy Browsers
       url: https://github.com/Lissy93/awesome-privacy#browsers
     - title: Search Engines
-      utl: https://github.com/Lissy93/awesome-privacy#search-engines
+      url: https://github.com/Lissy93/awesome-privacy#search-engines
     - title: Browser Extensions
       url: https://github.com/Lissy93/awesome-privacy#browser-extensions
     - title: Browser & Bookmark Sync
@@ -570,10 +572,10 @@
 
 
     The big companies providing "free" email service, don't have a good reputation
-    for respecting users privacy: Gmail was caught giving
-    [third parties full access](https://www.wsj.com/articles/techs-dirty-secret-the-app-developers-sifting-through-your-gmail-1530544442)
-    to user emails and also [tracking all of your purchases](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html).
-    Yahoo was also caught scanning emails in real-time [for US surveillance agencies](http://news.trust.org/item/20161004170601-99f8c)
+    for respecting users privacy: Gmail was found
+    [building a list of your purchases](https://www.cnbc.com/2019/05/17/google-gmail-tracks-purchase-history-how-to-delete-it.html)
+    from receipts in your inbox.
+    Yahoo was also caught scanning emails in real-time [for US surveillance agencies](https://www.reuters.com/article/us-yahoo-nsa-exclusive-idUSKCN1241YT)
     Advertisers [were granted access](https://thenextweb.com/insider/2018/08/29/both-yahoo-and-aol-are-scanning-customer-emails-to-attract-advertisers)
     to Yahoo and AOL users messages to “identify and segment potential customers by picking up on contextual buying signals, and past purchases.”
 
@@ -629,8 +631,8 @@
   - point: Consider Switching to a Secure Mail Provider
     priority: Optional
     details: >-
-      Secure and reputable email providers such as [Forward Email](https://awesome-privacy.xyz/communication/encrypted-email/forward-email),
-      [ProtonMail](https://awesome-privacy.xyz/communication/mail-forwarding/protonmail),
+      Secure and reputable email providers such as [Forward Email](https://awesome-privacy.xyz/communication/mail-forwarding/forward-email),
+      [ProtonMail](https://awesome-privacy.xyz/communication/encrypted-email/protonmail),
       and [Tutanota](https://awesome-privacy.xyz/communication/encrypted-email/tuta) allow for end-to-end
       encryption, full privacy as well as more security-focused features. Unlike typical email providers, your
       mailbox cannot be read by anyone but you, since all messages are encrypted.
@@ -732,7 +734,12 @@
   slug: messaging
   description: Keeping your communications private and secure
   icon: messaging
-  intro: ''
+  intro: >-
+    Our messages contain some of the most personal data we produce, yet on many mainstream
+    platforms the provider can read them, and can be compelled to hand them over. End-to-end
+    encryption prevents this, but only when it's enabled by default, the source code is open
+    for review, and the app is actively maintained. Meta data deserves attention too, since
+    who you spoke to and when can reveal nearly as much as what was said.
   checklist:
   - point: Only Use Fully End-to-End Encrypted Messengers
     priority: Essential
@@ -950,12 +957,6 @@
       way that is imperceptible by humans, but will prevent facial recognition systems from being able to recognize
       a given face.
 
-  - point: Consider Spoofing GPS in home vicinity
-    priority: Advanced
-    details: >-
-      Even if you yourself never use social media, there is always going to be others who are not as careful,
-      and could reveal your location.
-
   - point: Consider False Information
     priority: Advanced
     details: >-
@@ -1020,8 +1021,8 @@
   - point: Protect against DNS leaks
     priority: Optional
     details: >-
-      When using a VPN, it is extremely important to exclusively use the DNS server of your VPN provider or
-      secure service.
+      When using a VPN, make sure your DNS requests go through it, not your ISP. Most good VPN apps do this
+      by default, but you can check with a [DNS leak test](https://www.dnsleaktest.com).
 
   - point: Use a secure VPN Protocol
     priority: Optional
@@ -1032,13 +1033,13 @@
   - point: Secure DNS
     priority: Optional
     details: >-
-      Use DNS-over-HTTPS which performs DNS resolution via the HTTPS protocol, encrypting data between you
-      and your DNS resolver.
+      Set up encrypted DNS on your device or router, so it covers every app, not just your browser. See this
+      [list of providers and their addresses](https://adguard-dns.io/kb/general/dns-providers/).
 
   - point: Avoid the free router from your ISP
     priority: Optional
     details: >-
-      Typically they’re manufactured cheaply in bulk in China, with insecure propriety firmware that doesn't
+      Typically they’re manufactured cheaply in bulk in China, with insecure proprietary firmware that doesn't
       receive regular security updates.
 
   - point: Whitelist MAC Addresses
@@ -1065,12 +1066,6 @@
       WiFi SSIDs are scanned, logged, and then published on various websites, which is a serious privacy
       concern for some.
 
-  - point: Hide your SSID
-    priority: Optional
-    details: >-
-      Your router's Service Set Identifier is simply the network name. If it is not visible, it may receive
-      less abuse.
-
   - point: Disable WPS
     priority: Optional
     details: >-
@@ -1088,12 +1083,6 @@
     details: >-
       Do not grant access to your primary WiFi network to visitors, as it enables them to interact with other
       devices on the network.
-
-  - point: Change your Router's Default IP
-    priority: Optional
-    details: >-
-      Modifying your router admin panel's default IP address will make it more difficult for malicious scripts
-      targeting local IP addresses.
 
   - point: Kill unused processes and services on your router
     priority: Optional
@@ -1124,10 +1113,10 @@
       It's common to want to pump your router's range to the max, but if you reside in a smaller flat, your
       attack surface is increased when your WiFi network can be picked up across the street.
 
-  - point: Route all traffic through [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)
+  - point: Route all traffic through Tor
     priority: Advanced
     details: >-
-      VPNs have their weaknesses. For increased security, route all your internet traffic through the [Tor](https://awesome-privacy.xyz/networking/mix-networks/tor)
+      VPNs have their weaknesses. For increased security, route all your internet traffic through the [Tor](https://awesome-privacy.xyz/networking/anonymity-networks/tor)
       network.
 
   - point: Disable WiFi on all Devices
@@ -1179,7 +1168,7 @@
     what your data will reveal, especially in conjunction with other data.
 
     This data is used for
-    [far more than just advertising](https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) -
+    [far more than just advertising](https://web.archive.org/web/20200517142152/https://internethealthreport.org/2018/the-good-the-bad-and-the-ugly-sides-of-data-tracking/) -
     more often it's used to rate people for finance, insurance and employment.
     Targeted ads can even be used for fine-grained surveillance (see [ADINT](https://adint.cs.washington.edu))
 
@@ -1641,9 +1630,7 @@
   - point: Mitigate Alexa/ Google Home Risks
     priority: Optional
     details: >-
-      Consider privacy-focused alternatives like
-      [Mycroft](https://awesome-privacy.xyz/smart-home-and-iot/voice-assistants/mycroft) or use
-      Project Alias to prevent idle listening by voice-activated assistants.
+      Consider using Project Alias to prevent idle listening by voice-activated assistants.
 
   - point: Monitor your home network closely
     priority: Optional
@@ -1659,6 +1646,12 @@
     priority: Advanced
     details: >-
       Consider the privacy implications for all household members and adjust device settings for security and privacy, such as disabling devices at certain times.
+
+  - point: Avoid smart devices you don't need
+    priority: Advanced
+    details: >-
+      Every connected device adds risk. If something doesn't need to be smart, a regular version is the
+      safer choice.
   color: red
   softwareLinks:
   - title: Home Automation
@@ -1705,18 +1698,19 @@
       Pay with [Cash](https://awesome-privacy.xyz/finance/other-payment-methods/cash) for local and everyday purchases to avoid financial profiling by institutions.
 
   - point: Use Cryptocurrency for Online Transactions
-    priority: Optional
+    priority: Advanced
     details: >-
-      Opt for privacy-focused cryptocurrencies like
-      [Monero](https://awesome-privacy.xyz/finance/cryptocurrencies/monero) for
-      online transactions to maintain anonymity. Use cryptocurrencies wisely to ensure privacy.
+      Most cryptocurrencies, like Bitcoin, record every transaction on a public ledger, and exchanges tie
+      purchases to your identity. Privacy-focused coins like
+      [Monero](https://awesome-privacy.xyz/finance/cryptocurrencies/monero) help with this, but have a
+      steeper learning curve.
 
   - point: Store Crypto Securely
     priority: Advanced
     details: >-
       Securely store cryptocurrencies using offline wallet generation, hardware wallets
       like [Trezor](https://awesome-privacy.xyz/finance/crypto-wallets/trezor) or
-      [ColdCard](https://awesome-privacy.xyz/finance/crypto-wallets/coldcard), or
+      [ColdCard](https://coldcard.com), or
       consider long-term storage solutions like
       [CryptoSteel](https://awesome-privacy.xyz/finance/crypto-wallets/cryptosteel).
 
@@ -1724,8 +1718,7 @@
     priority: Advanced
     details: >-
       Purchase cryptocurrencies without linking to your identity through services
-      like [LocalBitcoins](https://awesome-privacy.xyz/finance/crypto-exchanges/localbitcoins),
-      [Bisq](https://awesome-privacy.xyz/finance/crypto-exchanges/bisq), or Bitcoin ATMs.
+      like [Bisq](https://awesome-privacy.xyz/finance/crypto-exchanges/bisq), or Bitcoin ATMs.
 
   - point: Tumble/ Mix Coins
     priority: Advanced
@@ -1763,7 +1756,7 @@
   intro: >-
     Many data breaches, hacks and attacks are caused by human error.
     The following list contains steps you should take, to reduce the risk of this
-    happening to you. Many of them are common sense, but it's worth takin note of.
+    happening to you. Many of them are common sense, but it's worth taking note of.
 
   checklist:
   - point: Verify Recipients
@@ -1951,6 +1944,10 @@
   - point: Protect your Home Address
     priority: Optional
     details: Use alternative locations, forwarding addresses, and anonymous payment methods to protect your home address.
+
+  - point: Use a Portable Door Lock When Travelling
+    priority: Optional
+    details: Other people may have keys to your hotel or rental room. A portable door lock or door alarm is cheap, and makes it much harder for anyone to get in unnoticed.
 
   - point: Use a PIN, Not Biometrics
     priority: Advanced
