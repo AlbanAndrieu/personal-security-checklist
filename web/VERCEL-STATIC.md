@@ -32,6 +32,7 @@ comme une mise en production.
 
 ## Roadmap priorisée — 8 novembre 2026
 
+<!-- prettier-ignore -->
 | Priorité | Action | Condition de clôture |
 | --- | --- | --- |
 | **P0 — PR #2** | Générer le marqueur public statique, corriger le build Docker et valider SSG/CI. | [CI #42488838006](https://github.com/AlbanAndrieu/personal-security-checklist/actions/runs/42488838006) et [Docker #42488837999](https://github.com/AlbanAndrieu/personal-security-checklist/actions/runs/42488837999) **PASS** sur `4012542` ; PR encore Draft, non fusionnée. |
