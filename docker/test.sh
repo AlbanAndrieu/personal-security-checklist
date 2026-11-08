@@ -58,6 +58,8 @@ check "Script bundles load ($bundle)" '[ -n "$bundle" ] && [ "$(status "$bundle"
 for file in /personal-security-checklist.yml /manifest.json /robots.txt /favicon.png /fonts/poppins-400.woff2; do
   check "Serves $file" '[ "$(status "$file")" = 200 ]'
 done
+check "Serves static build provenance" '[ "$(status /.well-known/checklist-build.json)" = 200 ]'
+check "Static provenance identifies SSG" 'body /.well-known/checklist-build.json | grep -Fq "\\\"rendering\\\": \\\"static\\\""' 
 check "Serves the checklist data as YAML" 'header /personal-security-checklist.yml content-type | grep -q "^text/yaml"'
 
 echo "📨 Headers"
