@@ -35,3 +35,5 @@ pnpm-lock.yaml
 package-lock.json
 yarn.lock
 server
+# Mirrored upstream dataset: validated by schema, not reformatted by Prettier.
+public/personal-security-checklist.yml

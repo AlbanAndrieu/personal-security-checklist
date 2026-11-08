@@ -43,8 +43,10 @@ jobs:
               - 'personal-security-checklist.yml'
               - '.github/actions/setup-web/**'
               - '.github/workflows/ci.yml'
+            # Only resolved dependency changes trigger dependency review.
+            # package.json-only script edits do not alter dependencies;
+            # yarn --frozen-lockfile fails if dependencies change without lockfile.
             deps:
-              - 'web/package.json'
               - 'web/yarn.lock'
             checklist:
               - 'personal-security-checklist.yml'
@@ -146,6 +148,10 @@ jobs:
           test "$pages" -gt 5 || { echo "::error::Only $pages pages prerendered, expected more"; exit 1; }
           test "$pages" -eq "$urls" || { echo "::error::$pages pages prerendered but $urls in sitemap"; exit 1; }
           echo "✅ Prerendered $pages pages, all present in the sitemap"
+
+      - name: Verify Vercel static output covers every documented slug
+        run: yarn verify:static
+        working-directory: web
 
   # The checklist data must match lib/schema.json
   checklist:
