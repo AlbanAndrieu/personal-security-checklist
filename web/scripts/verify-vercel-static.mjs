@@ -36,6 +36,17 @@ const paths = [
   ...checklists.map((section) => `checklist/${section.slug}/index.html`),
   ...articleSlugs.map((slug) => `article/${slug}/index.html`),
 ];
+const evidence = JSON.parse(readFileSync(resolve(dist, '.well-known/checklist-build.json'), 'utf8'));
+assert.deepEqual(Object.keys(evidence), ['schemaVersion', 'project', 'rendering', 'commit']);
+assert.equal(evidence.schemaVersion, 1);
+assert.equal(evidence.project, 'checklist');
+assert.equal(evidence.rendering, 'static');
+assert.ok(evidence.commit === null || /^[0-9a-f]{40}$/.test(evidence.commit));
+const expectedSha = process.env.VERCEL_GIT_COMMIT_SHA || process.env.GITHUB_SHA || '';
+if (/^[0-9a-f]{40}$/.test(expectedSha)) {
+  assert.equal(evidence.commit, expectedSha, 'Static marker SHA does not match the compiled source');
+}
+
 assert.equal(new Set(paths).size, paths.length, 'Duplicate generated route');
 for (const path of paths) {
   const file = resolve(dist, path);

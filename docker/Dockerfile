@@ -22,6 +22,7 @@ COPY web/tsconfig.json web/vite.config.mts web/postcss.config.js ./
 COPY web/adapters/static adapters/static
 COPY web/public public
 COPY web/src src
+COPY web/scripts scripts
 
 RUN yarn build.ssg
 
