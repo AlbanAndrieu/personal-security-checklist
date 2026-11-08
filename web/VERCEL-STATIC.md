@@ -60,10 +60,9 @@ curl --fail --silent --show-error \
 ```
 
 Le document doit contenir `"rendering": "static"` ainsi que le SHA Git du
-build lorsqu'il est disponible. Son absence signifie que **le nouveau build
-statique n'a pas encore été vérifié en production** ; elle ne prouve pas que
+build lorsqu'il est disponible. Son absence signifie que le nouveau build
+statique n'a pas encore été vérifié en production ; elle ne prouve pas que
 le site ne fonctionne plus. Ce fichier est généré à la compilation, sans
 appel serveur pendant la visite. Un marqueur valide doit être recoupé avec
 l'absence de Vercel Functions dans le dashboard : il ne prouve pas, seul,
 la configuration effective de la plateforme.
-
